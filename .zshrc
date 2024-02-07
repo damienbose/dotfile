@@ -14,7 +14,7 @@ export TERM=xterm
 export ZSH="/root/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting history-substring-search )
+plugins=(zsh-history-substring-search zsh-syntax-highlighting history-substring-search )
 
 
 bindkey "\$terminfo[kcuu1]" history-substring-search-up
